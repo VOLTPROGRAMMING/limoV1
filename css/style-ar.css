@@ -1,0 +1,80 @@
+body{
+    direction: rtl!important;
+    text-align: right;
+}
+
+.panel-content, .page-content{
+    direction: rtl!important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    left: 0.5rem;
+    right:unset;
+}
+
+.pos-right{
+    left:0;
+    right:unset;
+}
+
+table.dataTable thead .sorting:before,table.dataTable thead .sorting:after{
+    left: 1em!important;
+    right:unset;
+}
+
+.modal-header .close{
+    margin:-1.25rem;
+}
+
+.panel-hdr > :last-child{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.buttons i{
+    padding-left: 5px;
+}
+
+.modal-header,.modal-body{
+    direction: rtl;
+}
+
+
+.pagination li:first-child{
+    transform: rotate(180deg);
+}
+
+.pagination li:last-child{
+    transform: rotate(180deg);
+}
+
+.settings-panel .list{
+    text-align: left;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    padding-left: 0.5rem;
+    padding-right: unset;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-tabs{
+    padding-inline-start: unset;
+}
+
+
+.top-btn .btn span{
+    padding-left: 10px;
+}
+
+.modal-footer{
+    direction: ltr;
+}
+
+.select-table .custom-control{
+    padding-left: 0;
+}
